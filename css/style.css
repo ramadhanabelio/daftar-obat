@@ -1,0 +1,28 @@
+body {
+  background-color: #eef2f5;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #0d6efd, #0dcaf0);
+  color: white;
+  padding: 1.2rem 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.table thead {
+  background-color: #0d6efd;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.search-input {
+  max-width: 300px;
+}
