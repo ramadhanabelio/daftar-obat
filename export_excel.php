@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "dayah");
+$conn = new mysqli("localhost", "root", "", "daftar_obat");
 
 header('Content-Type: text/csv; charset=utf-8');
 header('Content-Disposition: attachment; filename=daftar_obat.csv');

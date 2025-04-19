@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 use Dompdf\Dompdf;
 
-$conn = new mysqli("localhost", "root", "", "dayah");
+$conn = new mysqli("localhost", "root", "", "daftar_obat");
 $data = $conn->query("SELECT * FROM medicines");
 
 $html = '<h3 style="text-align:center;">Daftar Obat</h3><table border="1" cellspacing="0" cellpadding="5" width="100%">
