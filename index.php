@@ -46,7 +46,7 @@ $result = $conn->query($sql);
 
                 <?php if ($result->num_rows > 0): ?>
                     <div class="table-responsive">
-                        <table class="table table-hover table-bordered align-middle table-sm" id="medicineTable">
+                        <table class="table table-hover table-striped table-bordered align-middle table-sm" id="medicineTable">
                             <thead class="text-center">
                                 <tr>
                                     <th>No.</th>
